@@ -2,13 +2,14 @@ package fr.dauphine.ja.nomprenom.shapes.view;
 
 import javax.swing.JPanel;
 
+import fr.dauphine.ja.nomprenom.shapes.controller.MouseController;
 import fr.dauphine.ja.nomprenom.shapes.model.Point;
 
 import javax.swing.JFrame;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
-public class MyDisplay extends JPanel{
+public class MyDisplay extends JPanel implements MouseController{
 
     /**
 	 * 
